@@ -1,0 +1,71 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>Batch Tool</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>Batch Tool</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="Batch Tool.csproj" File="Batch Tool.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="App.config">App.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="balloon.cs">balloon.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="balloon.Designer.cs">balloon.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="balloon.resx">balloon.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Batch Tool.cs">Batch Tool.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Batch Tool.Designer.cs">Batch Tool.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Batch Tool.resx">Batch Tool.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Date Replace.cs">Date Replace.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Date Replace.Designer.cs">Date Replace.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Date Replace.resx">Date Replace.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DBCB.cs">DBCB.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DBCB.Designer.cs">DBCB.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="DBCB.resx">DBCB.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Draw Number.cs">Draw Number.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Draw Number.Designer.cs">Draw Number.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Draw Number.resx">Draw Number.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="help.cs">help.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="help.Designer.cs">help.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="help.resx">help.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Name Replace.cs">Name Replace.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Name Replace.Designer.cs">Name Replace.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Name Replace.resx">Name Replace.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="packages.config">packages.config</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Program.cs">Program.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.resx">Resources.resx</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Resources.Designer.cs">Resources.Designer.cs</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.settings">Settings.settings</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="Settings.Designer.cs">Settings.Designer.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="BACK-PAGE.vsd">BACK-PAGE.vsd</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="batch.ico">batch.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="batch.png">batch.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="batch_grey.ico">batch_grey.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="batch_grey.png">batch_grey.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="batch_invert.ico">batch_invert.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="batch_red.png">batch_red.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="batch_red1.png">batch_red1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="CONTENT.vsd">CONTENT.vsd</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="red.ico">red.ico</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="REV-SHEET.vsd">REV-SHEET.vsd</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="TITLE-PAGE.VSD">TITLE-PAGE.VSD</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="tmeic banner.png">tmeic banner.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Setting.cs">Setting.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Setting.Designer.cs">Setting.Designer.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Setting.resx">Setting.resx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Settings.cs">Settings.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="WindowsFormsApp1_TemporaryKey.pfx">WindowsFormsApp1_TemporaryKey.pfx</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

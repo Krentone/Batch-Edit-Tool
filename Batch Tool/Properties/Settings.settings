@@ -1,0 +1,24 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="$safeprojectname$.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="Backups" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="Notification" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="BrowserAutoStart" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="PDFPath" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Sound" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Environment.CurrentDirectory\Resources\notify.wav</Value>
+    </Setting>
+    <Setting Name="SupportFilePath" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Environment.CurrentDirectory\Resources\</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
